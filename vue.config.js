@@ -4,7 +4,7 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
 module.exports = {
   productionSourceMap: false,
-  publicPath: process.env.NODE_ENV === "production" ? "./" : "",
+  publicPath: process.env.NODE_ENV === "production" ? "/hello-world2/'" : "",
   configureWebpack: () => {
     if (process.env.NODE_ENV === "production") {
       return {
